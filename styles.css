@@ -1,1 +1,50 @@
 /*Maak hier jouw CSS!*/
+
+
+.item {
+    background-color: indianred;
+    padding: 10px;
+
+
+}
+div{
+    display: grid;
+    grid-template-rows: 1em;
+    grid-template-columns: 1em;
+    grid-gap:16px;
+    grid-template-areas: "a b c"
+                         "c d e";
+
+}
+.item-a {
+    grid-area: a;
+}
+.item-b {
+    grid-area: b;
+}
+.item-c {
+    grid-area: c;
+}
+.item-d {
+    grid-area: d;
+}
+.item-e {
+    grid-area: e;
+}
+.item-f {
+    grid-area: f;
+}
+div {
+    font-size: 12px;
+}
+/*@media and(min-width:768px) {*/
+/*    div {*/
+/*        font-size: 14px;*/
+/*    }*/
+/*}*/
+
+/*@media and(min-width:768px) {*/
+/*    div {*/
+/*        font-size: 16px;*/
+/*    }*/
+/*}*/
